@@ -1,0 +1,15 @@
+Doubt 1 : In this code capacity of on line no 14 is showing 10 doubt is how :
+    package main
+    import ("fmt")
+
+    func main(){
+        arr1 := [6]int{9,10,32,44,55,66}
+        SliceArray1 := arr1[1:3]
+        fmt.Println(SliceArray1)
+        fmt.Println(len(SliceArray1))
+        fmt.Println(cap(SliceArray1))
+        mySlice1 := append(SliceArray1,23,343,544,545)
+        fmt.Println(mySlice1)
+        fmt.Println(len(mySlice1))
+        fmt.Println(cap(mySlice1))
+    }

@@ -27,11 +27,17 @@ import ("fmt")
 // 	fmt.Println(a,b)
 // }
 
-func main(){
-	var i string = "hello"
-	var j int = 15
+// func main(){
+// 	var i string = "hello"
+// 	var j int = 15
 	
-	fmt.Printf("i has value : %v of type : %T",i,i)
-	fmt.Print("\n")
-	fmt.Printf("j has value : %v of type : %T",j,j)
+// 	fmt.Printf("i has value : %v of type : %T",i,i)
+// 	fmt.Print("\n")
+// 	fmt.Printf("j has value : %v of type : %T",j,j)
+// }
+
+
+func main(){
+	var j string = "hello World"
+	fmt.Printf("Value of j is : %#v  %% and type is : %T",j,j)
 }
