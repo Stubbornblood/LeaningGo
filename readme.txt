@@ -47,3 +47,13 @@ Syntax To Rememeber:
 		sum3 = sum2 + sum2
 	)
 	fmt.Print(sum3)
+
+Loops:
+	For loop is only available in GO
+
+    for idx,value := range fruits{
+        fmt.println(idx," ",val)
+    }
+
+Function:
+    Note: When a parameter is passed to the function, it is called an argument. So, from the example above: fname is a parameter, while Liam, Jenny and Anja are arguments.
