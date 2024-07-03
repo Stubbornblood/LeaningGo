@@ -40,3 +40,10 @@ Memory Efficiency:
     if array is large and you need only few elements, It is better to copy those elements using copy()
     The copy() function creates only new underlying array with only the required elements for the slice. This will reduce the Memory used for the program
         
+Syntax To Rememeber:
+    var (
+		sum1 = 10+20
+		sum2 = sum1 + sum1
+		sum3 = sum2 + sum2
+	)
+	fmt.Print(sum3)
